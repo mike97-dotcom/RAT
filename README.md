@@ -1,21 +1,34 @@
-# **Projet RAT Python (Remote Access tool )** 
+# 🐍 Remote Access Tool (RAT) en Python
+
+Ce projet est un **Remote Access Tool (RAT)** développé en Python. Il permet d’établir une connexion distante entre un client et un serveur, offrant des fonctionnalités avancées comme l’exécution de commandes à distance, le transfert de fichiers, ou encore la prise de captures d’écran. 
  
 **by Mariam Cisse et Mike Arthur NYOGA - 4SI4 ESGI**
 
-## **Description**
+## 🚀 Fonctionnalités principales
 
-Ce projet consiste en un ensemble de script Python permettant d'établir une connexion distante entre un client et un serveur, permettant ainsi à l'utilisateur d'exécuter des commandes à distance sur la machine cliente.  
+- **Connexion distante** : Établissement d’une liaison sécurisée entre le client et le serveur.
+- **Exécution de commandes** : Possibilité d’exécuter des commandes shell sur la machine cliente.
+- **Transfert de fichiers** : Upload et download entre le serveur et la machine cliente.
+- **Prise de captures d'écran** : Capture et transmission d'images de l'écran du client.
+- **Récupération des hachages** :
+  - Extraction des mots de passe Windows (SAM dump).
+  - Extraction des mots de passe Linux (hashdump du fichier shadow).
+- **Recherche et navigation** : Recherche de fichiers spécifiques sur la machine cliente.
 
-## **Installation**
+---
 
-### **Prérequis**:
-	
-1.Python 3.x installé sur le server et le client.  
-2.Les bibliothèques Python requises, telles que socket, subprocess, os, platform, pyautogui, PIL, etc.  
+## 🛠️ Installation
 
-## **Installation des dependances** :
-pour installer les dépendances Python requises, exécutez la commande suivante dans le dossier "client":
-		```pip install -r Client-requirements.txt```
+### Pré-requis
+
+- **Python 3.x** : Doit être installé sur les machines serveur et cliente.
+- **Bibliothèques Python nécessaires** :
+  - Par exemple : `socket`, `subprocess`, `os`, `platform`, `pyautogui`, `Pillow`.
+
+---
+
+### 📦 Installation des dépendances
+
 		
 ## **Utilisation**
 
