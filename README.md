@@ -1,4 +1,4 @@
-# **Projet RAT Python (Remote Admin tools )** 
+# **Projet RAT Python (Remote Access tool )** 
  
 **by Mariam Cisse et Mike Arthur NYOGA - 4SI4 ESGI**
 
